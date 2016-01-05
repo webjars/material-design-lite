@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>material-design-lite</artifactId>
-    <version>1.0.6-SNAPSHOT</version>
+    <version>1.0.6</version>
     <name>material-design-lite</name>
     <description>WebJar for material-design-lite</description>
     <url>http://webjars.org</url>
@@ -34,7 +34,7 @@
         <developer>
             <id>mchiareli</id>
             <name>Maxwell Chiareli</name>
-            <email></email>
+            <email />
         </developer>
     </developers>
 
@@ -50,7 +50,7 @@
         <url>http://github.com/webjars/material-design-lite</url>
         <connection>scm:git:https://github.com/webjars/material-design-lite.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/material-design-lite.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>material-design-lite-1.0.6</tag>
     </scm>
 
     <build>
@@ -65,10 +65,10 @@
                         <goals><goal>run</goal></goals>
                         <configuration>
                             <target>
-                                <echo message="download archive"/>
-                                <get src="${upstream.url}" dest="${project.build.directory}/${project.artifactId}.zip"/>
-                                <echo message="unzip archive"/>
-                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${destDir}"/>
+                                <echo message="download archive" />
+                                <get src="${upstream.url}" dest="${project.build.directory}/${project.artifactId}.zip" />
+                                <echo message="unzip archive" />
+                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${destDir}" />
                             </target>
                         </configuration>
                     </execution>
