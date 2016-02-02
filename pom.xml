@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>material-design-lite</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1-SNAPSHOT</version>
     <name>material-design-lite</name>
     <description>WebJar for material-design-lite</description>
     <url>http://webjars.org</url>
@@ -50,7 +50,7 @@
         <url>http://github.com/webjars/material-design-lite</url>
         <connection>scm:git:https://github.com/webjars/material-design-lite.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/material-design-lite.git</developerConnection>
-        <tag>material-design-lite-1.1.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <build>
